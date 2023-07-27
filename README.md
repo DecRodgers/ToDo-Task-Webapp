@@ -3,6 +3,12 @@
 This is a simple TODO application built with a React & TypeScript frontend and ASP.NET Core Web API. 
 It allows users to add, update, and delete tasks.
 
+## Status
+
+- Initial Backend code done
+- Some unit tests added
+- Frontend started, learning components to add form for new/edit functions and a component for a table
+
 ## Features
 
 - Add a new task with name, priority, and status.
