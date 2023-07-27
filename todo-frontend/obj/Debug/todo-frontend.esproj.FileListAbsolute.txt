@@ -1,0 +1,2 @@
+D:\Projects\Barclays\Submission\ToDoApp-Submission\todo-frontend\obj\Debug\todo-frontend.esproj.SuggestedBindingRedirects.cache
+D:\Projects\Barclays\Submission\ToDoApp-Submission\todo-frontend\obj\Debug\todo-frontend.esproj.CoreCompileInputs.cache
