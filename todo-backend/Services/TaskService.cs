@@ -9,7 +9,7 @@ namespace todo_backend.Services
 
         public TaskService() { 
             taskCounter = 0;
-            //LoadSampleData();
+            LoadSampleData();
         }
 
         public void AddTask(string taskName, int taskPriority,string taskStatus) {

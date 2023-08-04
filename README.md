@@ -7,7 +7,7 @@ It allows users to add, update, and delete tasks.
 
 - Initial Backend code done
 - Some unit tests added
-- Frontend started, learning components to add form for new/edit functions and a component for a table
+- Frontend: TaskListTable created
 
 ## Features
 
@@ -22,7 +22,7 @@ It allows users to add, update, and delete tasks.
 - TypeScript: Superset of JavaScript that adds static typing to the language.
 - ASP.NET Core Web API: Back-end framework for building RESTful APIs.
 - Axios: JavaScript library for making HTTP requests from the front-end.
-- Material-UI(?): React UI framework for building responsive and attractive UI components.
+- MUI: React Material UI framework for building responsive and attractive UI components.
 - Xunit: Unit testing library for .NET Core applications.
 - FluentAssertions: Library for writing more expressive and readable unit tests in .NET.
 

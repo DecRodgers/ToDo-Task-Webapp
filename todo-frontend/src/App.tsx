@@ -2,6 +2,7 @@ import React from 'react';
 import { useState, useEffect } from "react";
 //import logo from './logo.svg';
 import { TaskData } from './types/TaskData';
+import TaskListTable from './components/TaskListTable';
 import axios from 'axios';
 import './App.css';
 
@@ -56,6 +57,7 @@ function App() {
         <div className="container">
             <header className="App-header">TODO Application </header>
             {/*TaskListTable Component here*/}
+            <TaskListTable tasksDataArray={taskList} onDelete={handleDeleteTask}></TaskListTable>
             {/*TaskForm Component here*/}
             <footer className="App-footer">Application by Declan Rodgers</footer>
         </div>
