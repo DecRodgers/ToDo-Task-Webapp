@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 //import logo from './logo.svg';
 import { TaskData } from './types/TaskData';
 import TaskListTable from './components/TaskListTable';
+import TaskEntryForm from './components/TaskEntryForm';
 import axios from 'axios';
 import './App.css';
 
@@ -55,11 +56,13 @@ function App() {
 
     return (
         <div className="container">
-            <header className="App-header">TODO Application </header>
-            {/*TaskListTable Component here*/}
-            <TaskListTable tasksDataArray={taskList} onDelete={handleDeleteTask}></TaskListTable>
+            <header className="App-header">Task Management Application </header>
             {/*TaskForm Component here*/}
-            <footer className="App-footer">Application by Declan Rodgers</footer>
+            <TaskEntryForm onAdd={handleAddTask}></TaskEntryForm>
+            <div></div>
+            {/*TaskListTable Component here*/}
+            <TaskListTable tasksDataArray={taskList} onDelete={handleDeleteTask} onUpdate={handleUpdateTask}></TaskListTable>            
+            <footer className="App-footer">Project for Barclays 2023</footer>
         </div>
     );
 

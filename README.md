@@ -3,13 +3,6 @@
 This is a simple TODO application built with a React & TypeScript frontend and ASP.NET Core Web API. 
 It allows users to add, update, and delete tasks.
 
-## Status
-
-- Initial Backend code done
-- Some unit tests added
-- Frontend: TaskListTable pulling and displayed, edit and delete task tbd, entry form to be finished
-- Form Validation
-
 ## Features
 
 - Add a new task with name, priority, and status.
@@ -29,7 +22,17 @@ It allows users to add, update, and delete tasks.
 
 ## Approach
 
-- TBC
+1. **Backend Development:** I started by reading the official Microsoft ASP.NET Core documentation on Dependency Injection (DI) since I have experience in C#. Implementing DI in the backend project was straightforward due to my prior knowledge.
+
+2. **Frontend Development:** React and TypeScript were new to me, so I followed a structured learning approach. I began by wtaching and doing simple tutorials on youtube, then researched components, such as the usage of `useState` hook by referring to the guide at `https://initialcommit.com/blog/usestate-useeffect-hooks-react`. This helped me grasp the fundamentals of managing state in functional components.
+
+3. **React Components:** Since I was new to TypeScript, I used `https://felixgerschau.com/react-typescript-components/` to understand the process of building functional components with TypeScript. This resource gave me insights into how to create and use components effectively.
+
+4. **Styling:** To style the frontend components, I looked up the W3Schools website for CSS references. This allowed me to design and format my application UI according to my preferences.
+
+5. **Material-UI (MUI):** Implementing the main UI was the most challenging part for me. I relied on the official Material-UI documentation and searched online for examples to get inspiration. Material-UI being a comprehensive UI framework, the documentation and examples helped me build the desired UI components successfully.
+
+My approach demonstrates a combination of official documentation, guides, and online resources, enabling me to build both the backend and frontend components of the ToDo application effectively. It showcases my ability to adapt to new technologies and learn independently.
 
 ## Getting Started
 
