@@ -10,7 +10,7 @@ import './App.css';
 const API_BASE_URL = 'https://localhost:7210/api/tasks';
 
 function App() {
-    // Link2 as reference for useState useage to populate array
+    // Link2 as reference for useState useage to populate default/updated states 
     const [taskList, setTasks] = useState<TaskData[]>([]);    
 
     useEffect(() => {
