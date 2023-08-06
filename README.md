@@ -7,7 +7,8 @@ It allows users to add, update, and delete tasks.
 
 - Initial Backend code done
 - Some unit tests added
-- Frontend: TaskListTable created
+- Frontend: TaskListTable pulling and displayed, edit and delete task tbd, entry form to be finished
+- Form Validation
 
 ## Features
 
@@ -37,9 +38,10 @@ To run the TODO application locally, follow these steps:
 1. Clone the repository to your local machine.
 2. Open the `todo-app.sln` solution file in Visual Studio.
 3. Build the solution to restore NuGet packages and compile the projects.
-4. Set both `todo-backend` and `todo-frontend` projects as Startup Projects. Right-click on the solution in Solution Explorer, select "Set Startup Projects...", and choose "Multiple startup projects". Set both projects to "Start", with the backend project starting first.
-5. Press `F5` or click the "Start" button in Visual Studio to run both the backend and frontend projects simultaneously.
-6. You should now be able to access the application in your web browser at `http://localhost:3000`.
+4. Navigate to the `todo-frontend` folder (via Terminal or Powershell in VS) and run `npm install` to restore the project's required javascript modules.
+5. Set both `todo-backend` and `todo-frontend` projects as Startup Projects. Right-click on the solution in Solution Explorer, select "Set Startup Projects...", and choose "Multiple startup projects". Set both projects to "Start", with the backend project starting first.
+6. Press `F5` or click the "Start" button in Visual Studio to run both the backend and frontend projects simultaneously.
+7. You should now be able to access the application in your web browser at `http://localhost:3000`.
 
 With this setup, both the backend (ASP.NET Core Web API) and frontend (React) projects will run concurrently, and you can interact with the TODO application in your web browser.
 
