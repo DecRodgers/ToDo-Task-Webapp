@@ -24,7 +24,7 @@ It allows users to add, update, and delete tasks.
 
 1. **Backend Development:** I started by reading the official Microsoft ASP.NET Core documentation on Dependency Injection (DI) since I have experience in C#. Implementing DI in the backend project was straightforward due to my prior knowledge.
 
-2. **Frontend Development:** React and TypeScript were new to me, so I followed a structured learning approach. I began by wtaching and doing simple tutorials on youtube, then researched components, such as the usage of `useState` hook by referring to the guide at `https://initialcommit.com/blog/usestate-useeffect-hooks-react`. This helped me grasp the fundamentals of managing state in functional components.
+2. **Frontend Development:** React and TypeScript were new to me, so I followed a structured learning approach. I began by watching and doing simple tutorials on youtube, then researched components, such as the usage of `useState` hook by referring to the guide at `https://initialcommit.com/blog/usestate-useeffect-hooks-react`. This helped me grasp the fundamentals of managing the state in functional components.
 
 3. **React Components:** Since I was new to TypeScript, I used `https://felixgerschau.com/react-typescript-components/` to understand the process of building functional components with TypeScript. This resource gave me insights into how to create and use components effectively.
 
